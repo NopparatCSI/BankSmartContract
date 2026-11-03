@@ -1,0 +1,22 @@
+{
+  "name": "vault-bank-dapp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CSI301 Smart Contract Bank DApp",
+  "scripts": {
+    "start": "node scripts/server.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/bank.test.mjs",
+    "compile": "node scripts/compile.mjs",
+    "check": "node scripts/check-site.mjs"
+  },
+  "dependencies": {
+    "ethers": "6.15.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "5.1.0",
+    "solc": "0.8.26",
+    "ganache": "7.9.2"
+  }
+}
